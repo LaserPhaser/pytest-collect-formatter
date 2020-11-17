@@ -8,9 +8,9 @@ import yaml
 def pytest_addoption(parser):
     group = parser.getgroup('collect-formatter')
     group.addoption("--collect-output-file", action="store", default=False,
-                    help="Saves collected test items in json format", )
+                    help="Saves collected test items to the file", )
     group.addoption("--collect-format", action="store", default='json',
-                    help="Saves collected test items in json format", )
+                    help="Saves collected test items specified format [xml, yaml, json], default JSON", )
 
 
 def check_parent(item, item_data):

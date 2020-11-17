@@ -14,7 +14,7 @@ with open('HISTORY.rst') as history_file:
 with open('AUTHORS.rst') as authors_file:
     authors = authors_file.read()
 
-requirements = ['requests']
+requirements = ['dicttoxml', 'PyYAML']
 
 setup_requirements = ['pytest-runner', ]
 
