@@ -1,0 +1,84 @@
+- children:
+  - children:
+    - children:
+      - children:
+        - children:
+          - children: []
+            title: test_inside_class
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[1]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[2]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[3]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[4]
+            type: pytest_unit
+          title: TestFormatter
+          type: pytest_unit
+        - children: []
+          title: test_outside_of_class
+          type: pytest_unit
+        title: test_fromatter_v1.py
+        type: path
+      - children:
+        - children:
+          - children: []
+            title: test_inside_class
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[1]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[2]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[3]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[4]
+            type: pytest_unit
+          title: TestFormatter
+          type: pytest_unit
+        - children: []
+          title: test_outside_of_class
+          type: pytest_unit
+        title: test_fromatter_v2.py
+        type: path
+      title: test_formatter
+      type: path
+    - children:
+      - children:
+        - children:
+          - children: []
+            title: test_inside_class
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[1]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[2]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[3]
+            type: pytest_unit
+          - children: []
+            title: test_inside_class_parametrize[4]
+            type: pytest_unit
+          title: TestFormatter
+          type: pytest_unit
+        - children: []
+          title: test_outside_of_class
+          type: pytest_unit
+        title: test_formatter_v2.py
+        type: path
+      title: test_formatter_v2
+      type: path
+    title: tests
+    type: path
+  title: examples
+  type: path

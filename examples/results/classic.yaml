@@ -1,0 +1,54 @@
+- children:
+  - children:
+    - title: test_inside_class
+      type: Function
+    - title: test_inside_class_parametrize[1]
+      type: Function
+    - title: test_inside_class_parametrize[2]
+      type: Function
+    - title: test_inside_class_parametrize[3]
+      type: Function
+    - title: test_inside_class_parametrize[4]
+      type: Function
+    title: TestFormatter
+    type: Class
+  - title: test_outside_of_class
+    type: Function
+  title: examples/tests/test_formatter/test_fromatter_v1.py
+  type: Module
+- children:
+  - children:
+    - title: test_inside_class
+      type: Function
+    - title: test_inside_class_parametrize[1]
+      type: Function
+    - title: test_inside_class_parametrize[2]
+      type: Function
+    - title: test_inside_class_parametrize[3]
+      type: Function
+    - title: test_inside_class_parametrize[4]
+      type: Function
+    title: TestFormatter
+    type: Class
+  - title: test_outside_of_class
+    type: Function
+  title: examples/tests/test_formatter/test_fromatter_v2.py
+  type: Module
+- children:
+  - children:
+    - title: test_inside_class
+      type: Function
+    - title: test_inside_class_parametrize[1]
+      type: Function
+    - title: test_inside_class_parametrize[2]
+      type: Function
+    - title: test_inside_class_parametrize[3]
+      type: Function
+    - title: test_inside_class_parametrize[4]
+      type: Function
+    title: TestFormatter
+    type: Class
+  - title: test_outside_of_class
+    type: Function
+  title: examples/tests/test_formatter_v2/test_formatter_v2.py
+  type: Module

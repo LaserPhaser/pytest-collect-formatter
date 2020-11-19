@@ -1,0 +1,152 @@
+[
+    {
+        "type": "path",
+        "title": "examples",
+        "children": [
+            {
+                "type": "path",
+                "title": "tests",
+                "children": [
+                    {
+                        "type": "path",
+                        "title": "test_formatter",
+                        "children": [
+                            {
+                                "type": "path",
+                                "title": "test_fromatter_v1.py",
+                                "children": [
+                                    {
+                                        "type": "pytest_unit",
+                                        "title": "TestFormatter",
+                                        "children": [
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[1]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[2]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[3]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[4]",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "pytest_unit",
+                                        "title": "test_outside_of_class",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "path",
+                                "title": "test_fromatter_v2.py",
+                                "children": [
+                                    {
+                                        "type": "pytest_unit",
+                                        "title": "TestFormatter",
+                                        "children": [
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[1]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[2]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[3]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[4]",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "pytest_unit",
+                                        "title": "test_outside_of_class",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "path",
+                        "title": "test_formatter_v2",
+                        "children": [
+                            {
+                                "type": "path",
+                                "title": "test_formatter_v2.py",
+                                "children": [
+                                    {
+                                        "type": "pytest_unit",
+                                        "title": "TestFormatter",
+                                        "children": [
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[1]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[2]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[3]",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "pytest_unit",
+                                                "title": "test_inside_class_parametrize[4]",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "pytest_unit",
+                                        "title": "test_outside_of_class",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

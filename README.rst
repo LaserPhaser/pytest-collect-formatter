@@ -39,6 +39,9 @@ Usage
                         Saves collected test items to the file
   --collect-format=COLLECT_FORMAT
                         Saves collected test items specified format [xml, yaml, json]
+  --collect-type=COLLECT_TYPE
+                        Format output results in classic pytest view or in 'path' view [classic, path], default classic
+
 
 
 Example of usage
@@ -49,7 +52,102 @@ And you will get the my_tests_structure.xml
 
 Exmpales of formats
 -------------------
+PATH
+____
 
+JSON
+
+.. code-block::
+
+    [
+        {
+            "type": "path",
+            "title": "examples",
+            "children": [
+                {
+                    "type": "path",
+                    "title": "tests",
+                    "children": [
+                        {
+                            "type": "path",
+                            "title": "test_formatter",
+                            "children": [
+                                {
+                                    "type": "path",
+                                    "title": "test_fromatter_v1.py",
+                                    "children": [
+                                        {
+                                            "type": "pytest_unit",
+                                            "title": "TestFormatter",
+                                            "children": [
+                                                {
+                                                    "type": "pytest_unit",
+                                                    "title": "test_inside_class",
+                                                    "children": []
+                                                },
+                                                {
+    ...
+
+
+
+YAML
+
+.. code-block::
+
+    - children:
+      - children:
+        - children:
+          - children:
+            - children:
+              - children: []
+                title: test_inside_class
+                type: pytest_unit
+              - children: []
+                title: test_inside_class_parametrize[1]
+                type: pytest_unit
+              - children: []
+                title: test_inside_class_parametrize[2]
+                type: pytest_unit
+              - children: []
+                title: test_inside_class_parametrize[3]
+   ...
+
+XML
+
+.. code-block::
+
+    <?xml version="1.0" ?>
+    <root>
+        <item>
+            <type>path</type>
+            <title>examples</title>
+            <children>
+                <item>
+                    <type>path</type>
+                    <title>tests</title>
+                    <children>
+                        <item>
+                            <type>path</type>
+                            <title>test_formatter</title>
+                            <children>
+                                <item>
+                                    <type>path</type>
+                                    <title>test_fromatter_v1.py</title>
+                                    <children>
+                                        <item>
+                                            <type>pytest_unit</type>
+                                            <title>TestFormatter</title>
+                                            <children>
+                                                <item>
+                                                    <type>pytest_unit</type>
+                                                    <title>test_inside_class</title>
+                                                    <children/>
+                                                </item>
+    ...
+
+
+CLASSIC
+_______
 JSON
 
 .. code-block::

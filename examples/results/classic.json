@@ -1,0 +1,110 @@
+[
+    {
+        "type": "Module",
+        "title": "examples/tests/test_formatter/test_fromatter_v1.py",
+        "children": [
+            {
+                "type": "Class",
+                "title": "TestFormatter",
+                "children": [
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[1]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[2]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[3]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[4]"
+                    }
+                ]
+            },
+            {
+                "type": "Function",
+                "title": "test_outside_of_class"
+            }
+        ]
+    },
+    {
+        "type": "Module",
+        "title": "examples/tests/test_formatter/test_fromatter_v2.py",
+        "children": [
+            {
+                "type": "Class",
+                "title": "TestFormatter",
+                "children": [
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[1]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[2]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[3]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[4]"
+                    }
+                ]
+            },
+            {
+                "type": "Function",
+                "title": "test_outside_of_class"
+            }
+        ]
+    },
+    {
+        "type": "Module",
+        "title": "examples/tests/test_formatter_v2/test_formatter_v2.py",
+        "children": [
+            {
+                "type": "Class",
+                "title": "TestFormatter",
+                "children": [
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[1]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[2]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[3]"
+                    },
+                    {
+                        "type": "Function",
+                        "title": "test_inside_class_parametrize[4]"
+                    }
+                ]
+            },
+            {
+                "type": "Function",
+                "title": "test_outside_of_class"
+            }
+        ]
+    }
+]
