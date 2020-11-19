@@ -47,7 +47,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/LaserPhaser/pytest-collect-formatter',
-    version='0.1.0',
+    version='0.3.0',
     zip_safe=False,
     entry_points={
         'pytest11': [
