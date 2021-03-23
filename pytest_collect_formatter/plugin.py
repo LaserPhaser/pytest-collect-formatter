@@ -59,7 +59,12 @@ def path_collection(session):
     for item in session.items:
         l = {}
         cur_h = {}
-        path = item.nodeid.split('/')
+        parameterized = item.nodeid.find('[')
+        if parameterized < 0:
+            path = item.nodeid.split('/')
+        else:
+            path = item.nodeid[0: parameterized].split('/')
+            path[-1] = path[-1] + item.nodeid[parameterized:]
         pytest_items = path[-1].split('::')
         path[-1] = pytest_items[0]
         pytest_items = pytest_items[1:]
